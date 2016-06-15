@@ -1,0 +1,335 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.modal-open[style="padding-right: 17px;"] .navbar-fixed-top,
+.modal-open[style="padding-right: 17px;"] .navbar-fixed-bottom {
+padding-right: 17px;
+}
+.navbar-fixed-top{
+	height: 85px;
+	border:none !important;
+	box-shadow: none!important;
+}
+.navbar.navbar-default.navbar-fixed-top{
+		background: #fff;
+}
+.brand-icon{
+	width: 50px;
+	height: 50px;
+	background-color: #0089cf;
+	padding: 10px 0 0 12px;
+	margin-top:12px;
+}
+.navbar-nav>li>a{
+	font-family: 'Roboto', sans-serif;
+	font-size: bold;
+	color:#333!important;
+	padding: 30px 0 30px 0 !important;
+}
+.navbar-nav>li>a:hover{
+	color:#0089cf !important;
+	border-bottom: 4px solid #0089cf;
+}
+.nav>li{
+	padding-left: 15px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.navbar-right{
+	margin-top:27px !important;
+}
+.navbar-right > span{
+	padding-left: 19px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 12px;
+}
+.header-active{
+	background: #e7e7e7 !important;
+}
+.change-search-icon{
+	color:#0089cf;
+}
+.search{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	font-family: 'Roboto', sans-serif;
+}
+.search-input{
+	display: none;
+}
+.show-hide{
+	display: inline-block !important;
+}
+.cartItemsWrapper{
+	color:#0089cf;
+}
+
+.glyphicon-search{
+	cursor: pointer;
+}
+
+.slider-wrapper{
+	margin-top: 100px;
+	padding-bottom: 150px;
+}
+.slider-colors{
+	font-weight: bold;
+	color:#666;
+}
+.colors{
+	color:#0089cf;
+}
+
+.like{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #e4e4e4;
+}
+.heart-img{
+	margin: 15px auto ;
+	display: block;
+}
+.add-to-cart{
+	width: 125px;
+	height: 50px;
+	background-color: #333;
+	color:#fff;
+	border:none;
+	margin-left: 8px;
+}
+.coupon-code{
+	width: 125px;
+	height: 50px;
+	background-color: #0089cf;
+	color:#fff;
+	border:none;
+	margin-left: 8px;
+}
+.size{
+	width: 125px;
+	height: 50px;
+	border-radius: 0 !important;
+
+}
+.modern-comfort{
+	height: 650px;
+	width: 100%;
+	 background: url(../img/modern-comfort-background.jpg) no-repeat;
+	  background-size:cover;
+	  padding: 265px 0 0 40px;
+	  background-position:center;
+}
+#NewPrice{
+	list-style-type: none;
+}
+#NewPrice > span{
+	color: #0089cf;
+    font-size: 40px;
+    font-weight: bold;
+}
+.modern-comfort > h4{
+	color:#fff;
+}
+.modern-comfort > p {
+	color: #e3e3e1;
+}
+.air-max-add-to-cart{
+	height: 430px;
+	border : 4px solid #e4e4e4;
+	background-color: #fff;
+	margin-top: 50px;
+}
+.air-max-add-to-cart > p {
+	color:#bbb;
+}
+.air-max-add-to-cart > h3 {
+	font-weight: bold;
+}
+.colors, .en-stock-wrapper > span{
+	font-weight: bold;
+}
+.en-stock-wrapper > span{
+	color: #666;
+}
+.story-wrapper{
+	background-color: #f6f6f6;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+.story-wrapper h3 , h4 {
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	color:#333;
+}
+.story-wrapper h5{
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	color:#949494;
+}
+.light-gray-shading{
+	color: #bbb;
+}
+.story-section-price-wrapper{
+    float: right;
+}
+.col-md-12.old-and-new-price{
+	padding: 0;
+}
+.story-section-small-air-max{
+	margin:40px 0 20px 0;
+}
+.en-stock-wrapper{
+	margin-bottom: 10px;
+}
+.old-price{
+	color:#666;
+	font-size: 17px;
+    font-weight: bold;
+}
+#SizeSelect{
+	width: 125px;
+	height: 50px;
+}
+.size-wrapper{
+	padding: 0 !important;
+	margin-bottom: 20px;
+}
+.footer img{
+	cursor: pointer;
+}
+.footer{
+	margin-top:100px;
+	margin-bottom: 100px;
+}
+.first-footer-img{
+	padding:0;
+}
+.footer section{
+	padding: 0;
+}
+.footer-content{
+	padding-left: 25px !important;
+}
+.footer-img{
+	padding-left: 10px;
+}
+@media screen and (max-width: 1320px){
+    .coupon-code, .add-to-cart{
+    	margin-left: 0;
+    	display: block;
+    	margin-top:10px;
+    }
+    .air-max-add-to-cart{
+    	height: 480px;
+    }
+    .add-to-cart , .size{
+    	display: block;
+    }
+
+}
+@media screen and (max-width: 1305px) and (min-width: 992px){
+    .Nike-travas{
+    	width: 100%;
+    }
+}
+@media screen and (max-width: 1400px) and (min-width: 992px){
+    .story-section-small-air-max{
+    	width: 100%;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 970px){
+    .story-big-air-max-img{
+    	width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    #navbar {
+        font-size: 12px;
+    }
+    .navbar-right{
+    	margin-top:33px !important;
+    }
+    .Nike-travas{
+    	display: block;
+    	margin: auto;
+    }
+    .coupon-code-wrapper{
+    	text-align: center;
+    }
+    .like{
+    	margin: auto;
+    }
+    .add-to-cart, .coupon-code{
+    	margin: 10px auto;
+    }
+    .slider-wrapper{
+    	padding-bottom: 30px;
+    }
+    .story-big-air-max-img{
+    	width: 100%;
+    }
+    .air-max-add-to-cart{
+    	text-align: center;
+    }
+    .story-section-price-wrapper{
+    	float: none;
+    }
+    .size{
+    	margin: auto;
+    }
+    .footer img{
+    	margin-top:10px;
+    }
+    .first-footer-img{
+    	padding: 0;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 767px){
+	.search-input {
+		width: 82px;
+	}
+	.navbar-nav{
+		font-size: 10px;
+	}
+	.navbar-right > span{
+	padding-left: 19px;
+	font-size: 10px;
+	}
+	.navbar-nav>li{
+		font-size: 10px;
+	}
+}
+@media screen and (max-width: 767px){
+    .navbar-fixed-top{
+    	height: auto;
+    }
+    .navbar-nav>li>a{
+    	border:4px solid #e7e7e7;
+    }
+    .nav>li{
+    	padding: 0;
+    	text-align: center;
+    }
+    .navbar-right{
+    	text-align: center;
+    }
+    .brand-icon{
+    	margin-top:0;
+    }
+    .navbar-nav>li>a:hover{
+	color:#0089cf !important;
+	border-bottom: 4px solid #e7e7e7;
+}
+
+}
+@media screen and (max-width: 742px){
+    .story-big-air-max-img{
+    	width: 100%;
+    }
+    .Nike-travas{
+    	width: 100%;
+    }
+}
